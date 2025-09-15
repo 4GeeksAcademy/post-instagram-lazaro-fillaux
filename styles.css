@@ -14,3 +14,24 @@
     justify-content: center;
     align-items: center;
 }
+
+#partesuperior{
+    text-align: center;
+    display:flex;
+    align-self: flex-start;
+    height: 10%;
+}
+#partederecha{
+    text-align: left;
+}
+#parteizquierda{
+    text-align: right;
+}
+#partecentral{
+    height: 60%;
+}
+
+
+#botton{
+    height: 30%;
+}
