@@ -11,27 +11,42 @@
     width: 400px; 
     height: 400px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
 
 #partesuperior{
-    text-align: center;
-    display:flex;
-    align-self: flex-start;
-    height: 10%;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    border:2px solid red
 }
-#partederecha{
-    text-align: left;
+#dospalabras{
+    padding-left: 1em;
+    border: 2px solid red;
 }
-#parteizquierda{
-    text-align: right;
-}
-#partecentral{
-    height: 60%;
+#media{
+    border: 2px solid red;
+    margin-bottom: 1; /* Distancia vertical entre los bloques */
+    padding: 10px;
+    
 }
 
+#abajo{
+    border: 2px solid red;
+    padding: 10px;
+}
 
-#botton{
-    height: 30%;
+p{
+    margin:1;
+}
+
+i {
+    font-size: 30px;
+    color: #333;
+    cursor: pointer;
+}
+
+#primera{
+    font-weight: bold;
 }
