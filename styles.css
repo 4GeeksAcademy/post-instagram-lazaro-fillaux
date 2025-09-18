@@ -8,8 +8,8 @@
 
 #cuadrado{
     background-color: white;
-    width: 400px; 
-    height: 400px;
+    width: 500px; 
+    height: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -19,22 +19,49 @@
     align-items: center;
     padding: 8px 12px;
     border-bottom: 1px solid #ddd;
-    border:2px solid red
+    
 }
 #dospalabras{
     padding-left: 1em;
-    border: 2px solid red;
+}
+img {
+  width: 100%;        /* Se ajusta al ancho del div */
+  height: 100%;       /* Se ajusta al alto del div */
 }
 #media{
-    border: 2px solid red;
     margin-bottom: 1; /* Distancia vertical entre los bloques */
-    padding: 10px;
     
 }
+.puntitos{
+    margin-left: auto;
+}
+
+#iconos{
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    
+}
+#primericon{
+    margin-right: 0.5em;
+}
+#segunicon{
+    margin-right: 0.5em;
+}
+#tercericon{
+    margin-right: 0.5em;
+}
+#cuartoicon{
+    margin-left: auto;
+}
+
+
+
 
 #abajo{
-    border: 2px solid red;
     padding: 10px;
+    flex : 1;
 }
 
 p{
